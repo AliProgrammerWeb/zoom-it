@@ -1,0 +1,152 @@
+@font-face {
+    font-family: farsi;
+    src: url(../font/Sans\ a4fran3.ttf);
+}
+*{
+    direction: rtl;
+    font-family: farsi;
+}
+body{
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+
+}
+.head{
+font-size: 2em;
+
+}
+.subjects {
+    display: flex;
+}
+.subjects .subject{
+    display: flex;
+    padding: 5px 10px;
+    font-size: .8em;
+    align-items: center;
+    color: #333;
+    border:1px solid #c1c0c0;
+    border-radius:25px;
+    margin: 0px 10px;
+}
+.subjects .subject:hover {
+    border-color: #666;
+}
+
+.subjects .subject a{
+    color: #333;
+    font-weight: bold;
+    align-items: center;
+    padding-bottom: 3px;
+}
+.subjects .subject img{
+    width: 15px;
+    height: 15px;
+    margin-right:3px;
+    
+}
+main {
+    margin: 30px 0px;
+
+}
+main section{
+    display: flex;
+    border-bottom:1px solid #c1c0c0;
+    padding:30px 0px;
+    width: 700px
+
+}
+main section .left{
+    order: 2;
+    margin-right: 5px;
+    
+}
+main section .left .img{
+
+}
+main section .right{
+    order: 1;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    
+}
+main section .right .title{
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+main section .right .title:hover{
+    color: red;
+}
+main section .right .caption{
+    font-size: .8em;
+    color: #606060;
+
+}
+main section .right .footer{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+   width: 180px;
+    
+
+
+}
+main section .right .footer .comments{
+    display: flex;
+    align-items: center;
+
+}
+main section .right .footer .comments span{
+   padding-bottom:1px;
+   order: 2;
+   color: #7f7e7e;
+   font-size: .7em;
+   margin-right: 5px;
+
+}
+main section .right .footer .comments img{
+    width: 15px;
+    height: 15px;
+    order: 1;
+
+}
+main section .right .footer .time{
+    display: flex;
+    align-items: center;
+
+}
+main section .right .footer .time span  {
+    padding-bottom: 1px;
+    order: 2;
+    color: #7f7e7e;
+    font-size: .7em;
+    margin-right: 5px;
+
+}
+main section .right .footer .time img{
+    width: 15px;
+    height: 15px;
+    order: 1;
+
+}
+main section .right .footer .more{
+    display: flex;
+    
+
+}
+
+main section .right .footer .more img{
+   width: 15px;
+   height: 15px;
+
+}
